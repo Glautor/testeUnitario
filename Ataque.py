@@ -28,6 +28,7 @@ class Ataque:
         self.armasCorretasNaPosicaoErrada += 1
 
     def conferirSeGanhou(self):
+        print self.armasCorretasNaPosicaoCorreta
         return self.armasCorretasNaPosicaoCorreta == 4
 
 
